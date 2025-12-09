@@ -32,16 +32,19 @@ nav {
 
 .faq {
     text-align: center;
-    width: 80%;
     margin: auto;
+    width: 80%;
 }
 
-.faq-container ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+.faq-boxes {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.faq-item {
+    width: 45%; 
+    margin: 10px;
 }
 
 
