@@ -29,3 +29,20 @@ nav {
     font-size: 15px;
     font-weight: bold;
 }
+
+.faq {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.faq-container ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+
