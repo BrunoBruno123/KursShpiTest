@@ -50,3 +50,16 @@ nav {
 .footer-text{
     text-align: center;
 }
+
+.nav-li {
+    list-style: none;
+    margin: 120px;
+    padding: 0;
+    display: flex;
+    gap: 70px; 
+    margin-left: 80%;
+}
+.nav-li li a {
+    text-decoration: none;
+}
+
